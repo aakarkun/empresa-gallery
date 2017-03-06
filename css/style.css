@@ -1,0 +1,160 @@
+.header {
+    width: 100%;
+    height: auto;
+    min-height: 152px;
+    /*background: url("../img/header.jpg") no-repeat center;*/
+}
+.header .flag-img {
+    margin-top: 12px;
+    float: right;
+    margin-right: 36px;
+}
+.header .gov-logo {
+    margin-top: 36px;
+    float: left;
+    margin-left: 36px;
+}
+
+.nav {
+    float: none;
+    margin: auto;
+    width: 80%;
+}
+.navbar-brand {
+    visibility: hidden;
+}
+.hero-section {
+    margin: 0px;
+}
+.container .main-content, .media {
+    margin: 0px;
+}
+.content-section {
+   padding-right: 15px;
+}
+.right-content {
+    padding-left: 15px;
+    padding-right: 0px;
+}
+.content-notice {
+    padding-left: 0px;
+}
+.content-notice li,
+.right-content li {
+    padding: 5px;
+}
+.member-area {
+    padding-right: 0px;
+}
+.thumbnail-content .header-thumbnail {
+    height: 292px;
+    width: 100%;
+}
+.thumbnail-content .header-thumbnail .uk-slideshow img {
+    height: 292px!important;
+    width: 100%;
+}
+.thumbnail-content .header-thumbnail .uk-slidenav {
+    color: #00b4f5;
+}
+.photo-gallery .em-card-body {
+    padding: 28px 28px;
+}
+.photo-gallery li {
+    padding: 8px;
+    width: 192px;
+    height: 162px;
+    border: transparent;
+}
+.photo-gallery img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.media-area {
+    height: auto;
+}
+.album-showcase-section .em-card-body,
+.album-preview-section .em-card-body,
+.document-preview-section .em-card-body,
+.map-preview-section .em-card-body,
+.contact-us-section .em-card-body {
+    padding: 30px 30px;
+}
+.album-showcase,
+.album-preview {
+    overflow: hidden;
+}
+.album-showcase li,
+.album-preview li {
+    height: 172px;
+    text-align: center;
+    margin-bottom: 65px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.album-showcase a:hover img {
+    border: 1px;
+    padding: 6px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+}
+.album-preview a:hover img {
+    border: 1px solid rgba(0, 180, 245, 1);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+.album-showcase img,
+.album-preview img {
+    width: 95%;
+    height: 172px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.album-preview .uk-modal img {
+    height: 100%;
+    width: 100%;
+}
+.album-preview-section .em-card-body .uk-modal-close {
+    margin-bottom: 6px;
+}
+.album-showcase .uk-badge {
+    top: 8px;
+    right: 11px;
+    position: absolute;
+    background-color: rgba(51, 153, 255, 0.8);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
+}
+.album-showcase  a:hover .uk-badge {
+    color: #39f;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(51, 153, 255, 1);
+}
+
+.uk-slidenav-next,
+.uk-slidenav-previous {
+    color: rgba(51, 153, 255, 0.6);
+}
+.uk-slidenav-next:hover,
+.uk-slidenav-previous:hover {
+    color: #39f;
+}
+
+.footer {
+    color: #ffffff;
+    margin-top: 45px;
+    padding: 50px 35px 5px 35px;
+    /*background: url("../img/footer_bg.png");*/
+}
+.footer p,
+.footer a{
+    color: #eaeaea;
+}
+.footer a:hover,
+.footer a:focus {
+    color: #ffffff;
+}
+.fb-page {
+    width: 300px;
+    height: 200px;
+}
+
